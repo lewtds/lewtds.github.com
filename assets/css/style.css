@@ -1,0 +1,52 @@
+html, body {
+    font-family : Open Sans;
+    height: 100%;
+}
+
+footer {
+    color: white;
+    background-color: #2C3437;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    clear: both;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+}
+
+footer div {
+    padding-top: 30px;
+}
+
+.jumbotron {
+padding-top: 60px;
+padding-bottom: 50px;
+/*text-align: center;*/
+}
+
+#tag-line {
+font-size: 32px;
+line-height: 1.2;
+font-weight : 300;
+}
+
+.container-narrow {
+margin: 0 auto;
+max-width: 700px;
+height: auto; min-height: 100%;
+}
+
+.container-narrow > hr {
+margin-top: 50px;
+margin-bottom: 30px;
+clear: both;
+}
+
+.container-narrow header {
+min-width : 120px;
+}
+
+header.jumbotron div {
+    padding-top : 2em;
+}
