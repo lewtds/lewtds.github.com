@@ -6,9 +6,9 @@ title: Python Quickstart
 ## Sơ lược về Python
 
 Dưới đây là những kiến thức tóm tắt. Có thể tham khảo các nguồn khác đầy đủ hơn (có lẽ cũng dễ hơn nữa =]):
-- http://code.google.com/edu/languages/google-python-class/
-- http://www.openbookproject.net/thinkcs/python/english2e/
-- http://www.python.org/doc/
+- <http://code.google.com/edu/languages/google-python-class/>
+- <http://www.openbookproject.net/thinkcs/python/english2e/>
+- <http://www.python.org/doc/>
 
 ### Giới thiệu về ngôn ngữ
 
