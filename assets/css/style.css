@@ -3,20 +3,26 @@ html, body {
     height: 100%;
 }
 
+body {
+    border-top: 20px solid;
+}
+
 footer {
     color: white;
-    background-color: #2C3437;
+    background-color: #333;
     margin-bottom: 0;
-    padding-bottom: 0;
+    margin-top: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     clear: both;
     width: 100%;
     position: relative;
     z-index: 10;
-}
+    font-size: 85%;
+    
 }
 
 footer div {
-    padding-top: 30px;
 }
 
 .jumbotron {
