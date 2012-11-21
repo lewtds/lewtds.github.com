@@ -1,7 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:og="http://ogp.me/ns#"
+    xmlns:fb="https://www.facebook.com/2008/fbml">
     <head>
         <meta charset="utf-8">
+        <meta property="og:title" content="{{ page.title }}"/>
+        <meta property="og:url" content="http://ngôchin.vn{{ page.url }}"/>
+        <meta property="og:site_name" content="Geeky Geek"/>
+        <meta property="og:description" content="{{ page.description }}"/>
         <title>{{ page.title }}</title>
         <!-- Bootstrap -->
         <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -25,6 +31,7 @@
                     <a href="/" class="tag-line-border">would a geeky geek geeks</a></br>
                     <a href="/" class="tag-line-border">if a geeky geek could geek geeks?</a>
                 </h1>
+                <div class="center-text"><a href="#bottom">About me</a></div>
             </header>
             
             <div>{{ content }}</div>
@@ -34,7 +41,7 @@
             <div class="container">
                 <div class="row">
                     <div class="span4 offset2">
-                        <p>Xin chào, mình là <a href="https://facebook.com/lewtds"><b>Ngô Chin</b></a>.
+                        <p>Xin chào, mình là <a href="https://www.facebook.com/lewtds"><b>Ngô Chin</b></a>.
                         Mình blog về Linux, FOSS, Web, DIY, nhạc, phim, stuffs, stuffs...</br>
                         Nếu bạn thấy cái tên ngờ ngợ thì chắc không nhầm đâu =))</p>
                         <p class="slightly-dim">© 2012, <a href="mailto:ndtrung4419@gmail.com">Chin</a>.
@@ -48,6 +55,7 @@
                         So. I keep reminding myself to write something nice here. But I don't remember what.
                         So here's a cute cat. Enjoy it while you still can.</br>
 -->
+<div class="center-text"><a href="#top">Back to top</a></div>
 <pre>
    /\_/\
    >^.^<.---.
@@ -60,6 +68,21 @@
             </div>
         </footer>
         <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('hr').replaceWith('<i class=\"icon-asterisk hr\"></i>');
+            });
+            
+            $("a[href='#bottom']").click(function() {
+              $("html, body").animate({ scrollTop: $(document).height() }, 1500);
+              return false;
+            });
+            
+            $("a[href='#top']").click(function() {
+              $("html, body").animate({ scrollTop: 0 }, 1500);
+              return false;
+            });
+        </script>
         <script src="/assets/js/bootstrap.min.js"></script>
     </body>
 </html>

@@ -14,13 +14,21 @@ article > h1, h2, h3, h4, h5, h6 {
     margin-top: 0.6em;
 }
 
+/*
 article {
     margin-bottom: 40px
+}
+*/
+
+hr {
+    
 }
 
 article section {
     clear: both;
+/*
     margin-bottom: 3em;
+*/
 }
 
 article .description {
@@ -28,12 +36,6 @@ article .description {
     font-size: 90%;
 }
 
-article hr {
-    width: 50%;
-    margin: 40px auto;
-    border-top: none;
-    border-bottom: 1px dotted #999999;
-	}
 
 footer {
     color: #DDD;
@@ -71,7 +73,6 @@ padding-bottom: 40px;
 
 .jumbotron .span2 {
     margin-left: 0;
-    margin-top: 10px;
 }
 
 .jumbotron h1 {
@@ -86,6 +87,21 @@ font-weight : 300;
 
 .center-text {
     text-align: center;
+}
+
+
+hr {
+    width: 50px;
+    margin: 40px auto;
+    border: none;
+}
+
+
+i.hr {
+    width: 1em;
+    margin: 40px auto;
+    text-align: center;
+    display: block;
 }
 
 .container-narrow {
