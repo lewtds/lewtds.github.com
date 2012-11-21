@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Python Quickstart
+tags: python, programming
+description: "Một bài giới thiệu nhanh về ngôn ngữ Python mình viết cho
+một buổi họp CLB."
 ---
-
-## Sơ lược về Python
 
 Dưới đây là những kiến thức tóm tắt. Có thể tham khảo các nguồn khác đầy đủ hơn (có lẽ cũng dễ hơn nữa =]):
 - <http://code.google.com/edu/languages/google-python-class/>
