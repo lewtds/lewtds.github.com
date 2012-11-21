@@ -3,7 +3,24 @@ layout: default
 ---
 
 <article>
-    {{ content }}
+    
+    <section style="text-align:center">
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <p class="date"><i><small>{{ page.date | date_to_string }}
+      {% unless page.tags == empty %}
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      {% for tag in page.tags %}
+      <a href="#" class="no-border">{{ tag }}</a>
+      {% endfor %}
+      {% endunless %}
+      </small></i>
+      </p>
+      <div class="description">{{ page.description }}</div>
+    </section>
+
+    <section>{{ content }}</section>
+    
+    
     
     <div class="copyright-notice">
     <i>&copy; 2012, Chin &lt;ndtrung4419 at gmail dot com&gt; </br>

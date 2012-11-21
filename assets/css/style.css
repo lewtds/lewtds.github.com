@@ -8,7 +8,7 @@ body {
     border-top: 20px solid;
 }
 
-h1, h2, h3, h4, h5, h6 {
+article > h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 0.9em;
     margin-top: 0.6em;
@@ -16,6 +16,16 @@ h1, h2, h3, h4, h5, h6 {
 
 article {
     margin-bottom: 40px
+}
+
+article section {
+    clear: both;
+    margin-bottom: 3em;
+}
+
+article .description {
+    font-style: italic;
+    font-size: 90%;
 }
 
 article hr {
@@ -74,6 +84,10 @@ line-height: 1.2;
 font-weight : 300;
 }
 
+.center-text {
+    text-align: center;
+}
+
 .container-narrow {
 margin: 0 auto;
 max-width: 640px;
@@ -106,12 +120,11 @@ a:hover {
     text-decoration: none;
 }
 
-a, a:hover {
-
-    transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -o-transition: all 0.2s;
+a {
+    transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
 }
 
 .tag-line-border {
