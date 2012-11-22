@@ -146,6 +146,10 @@ a {
     -o-transition: all 0.2s ease 0s;
 }
 
+h1 a {
+    line-height: 1.25em;
+}
+
 .tag-line-border {
     border: none;
 }
