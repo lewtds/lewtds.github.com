@@ -50,12 +50,12 @@
             <div class="container">
                 <div class="row">
                     <div class="span4 offset2">
-                        <p>Xin chào, mình là <a href="https://www.facebook.com/lewtds"><b>Ngô Chin</b></a>.
+                        <p>Xin chào, mình là <a href="https://www.facebook.com/lewtds" class="external"><b>Ngô Chin</b></a>.
                         Mình blog về Linux, FOSS, Web, DIY, nhạc, phim, stuffs, stuffs...</br>
                         Nếu bạn thấy cái tên ngờ ngợ thì chắc không nhầm đâu =))</p>
-                        <p class="slightly-dim">© 2012, <a href="mailto:ndtrung4419@gmail.com">Chin</a>.
+                        <p class="slightly-dim">© 2012, <a href="mailto:ndtrung4419@gmail.com" class="external">Chin</a>.
                         Some rights reserved.</br>
-                            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.vi">
+                            <a rel="license" class="external"href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.vi">
                             <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a>
                         </p>
                     </div>
@@ -80,6 +80,10 @@
         <script>
             $(document).ready(function(){
                 $('hr').replaceWith('<i class=\"icon-asterisk hr\"></i>');
+                $("section#content a, footer a.external").attr({
+                    "rel":"nofollow",
+                    "target":"_blank"
+                    });
             });
             
             $("a[href='#bottom']").click(function() {
