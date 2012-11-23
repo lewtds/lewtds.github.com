@@ -1,1 +1,7 @@
 pygments: true
+
+name: Chin
+description: Chin's weblog about Linux, FOSS, Web, DIY, music, movies and stuffs.
+url: http://xn--ngchin-jxa.vn
+
+permalink: pretty
