@@ -5,8 +5,11 @@ description: Chin's weblog about Linux, FOSS, Web, DIY, music, movies and stuffs
 ---
 
 {% for post in site.posts limit: 10  %}
-
+{% if forloop.last %}
+    <article class="center-text" style="margin-bottom:80px;">
+{% else %}
     <article class="center-text">
+{% endif %}
         <section>
     	  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
     	  <p class="date"><i><small>{{ post.date | date_to_string }}
