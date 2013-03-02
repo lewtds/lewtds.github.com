@@ -51,48 +51,46 @@ VD:
 
 **Email #1** *mr.a@gmail.com*
 
-```
+    Xin chào mọi người.
 
-Xin chào mọi người.
+    Hôm nay tôi muốn bàn một số vấn đề như sau:
 
-Hôm nay tôi muốn bàn một số vấn đề như sau:
+    1. Vấn đề thứ nhất là như thế này Lorem ipsum dolor sit amet,
+    consectetur adipisicing elit, sed do eiusmod tempor incididunt
+    ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 
-1. Vấn đề thứ nhất là như thế này Lorem ipsum dolor sit amet,
-consectetur adipisicing elit, sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    2. Vấn đề thứ hai tôi muốn nói là quis nostrud exercitation
+    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse.
 
-2. Vấn đề thứ hai tôi muốn nói là quis nostrud exercitation
-ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-aute irure dolor in reprehenderit in voluptate velit esse.
+    Xin mọi người cho ý kiến cùng thảo luận.
 
-Xin mọi người cho ý kiến cùng thảo luận.
+    Thân,
+    A.
 
-Thân,
-A.
-```
 
 **Email #2** *mr.b@gmail.com*
 
-```
-Xin chào Mr.A,
 
-Tôi đồng tình với phần lớn các ý kiến của bạn, tuy nhiên có một số điều
-cần phải bàn thêm.
+    Xin chào Mr.A,
 
-Vào ngày XX/XX/XX, Mr.A <mr.a@gmail> đã viết:
-> 
-> 1. Vấn đề thứ nhất là như thế này....
->
-Làm như thế này có thực sự ổn không?....
+    Tôi đồng tình với phần lớn các ý kiến của bạn, tuy nhiên có một số điều
+    cần phải bàn thêm.
 
-> 
-> 2. Vấn đề thứ hai tôi muốn nói là.....
->
-Ok.
+    Vào ngày XX/XX/XX, Mr.A <mr.a@gmail> đã viết:
+    > 
+    > 1. Vấn đề thứ nhất là như thế này....
+    >
+    Làm như thế này có thực sự ổn không?....
 
-Best regards,
-B.
-```
+    > 
+    > 2. Vấn đề thứ hai tôi muốn nói là.....
+    >
+    Ok.
+
+    Best regards,
+    B.
+
 
 Các quy luật cơ bản của giao tiếp người với người vẫn áp dụng trong
 mailing list. Bạn nên *tỏ ra lịch sự, không VIẾT HOA CẢ CÂU, trả lời*
