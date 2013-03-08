@@ -209,3 +209,8 @@ a.tag-line-border:hover {
     text-align: right;
     font-size: 10px;
 }
+
+img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
