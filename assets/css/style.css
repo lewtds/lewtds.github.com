@@ -210,9 +210,14 @@ a.tag-line-border:hover {
     font-size: 10px;
 }
 
-img {
+figure {
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
 }
 
 footer pre {
