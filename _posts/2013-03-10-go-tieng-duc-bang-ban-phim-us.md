@@ -8,7 +8,7 @@ Gần đây mình đang học tiếng Đức. Ở mức cơ bản thì có thể
 một ngôn ngữ rất thú vị. Vừa lạ vừa quen. Dĩ nhiên trong phương pháp học
 hiện đại thì không thể thiếu cái máy tính. Và đã dùng đến máy tính thì
 phải có cách nào đó để gõ được các ký tự đặc biệt trong tiếng Đức. Ngoài
-26 ký tự thông thường thì tiếng Đức còn có 3 ký tự đặc biệt *ä (ae), ö*
+26 ký tự thông thường thì tiếng Đức còn có 3 âm dẹt *ä (ae), ö*
 *(oe), ü (ue)* gọi là Umlaut và một ký tự nối âm *ß (ss)*. Ở Đức thì
 người ta có kiểu bàn phím riêng của người Đức khá giống bàn phím thông
 thường của Mỹ nhưng bên trái phím Z còn một phím nữa (phím Shift bị phân
