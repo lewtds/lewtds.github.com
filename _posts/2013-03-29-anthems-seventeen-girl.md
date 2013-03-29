@@ -12,8 +12,13 @@ Thực ra tên thật của nó là
 vs. the World](http://www.youtube.com/watch?v=8NUBVcit5VM). Đùa chứ ai chưa xem
 thì phí cả cuộc đời rồi. :3
 
-Âm nhạc phiêu phiêu còn lời lẽ chẳng có ý nghĩa gì cụ thể, chả khác gì một cô gái
-17 tuổi.
+<del>Âm nhạc phiêu phiêu còn lời lẽ chẳng có ý nghĩa gì cụ thể, chả khác gì một cô gái
+17 tuổi.</del>
+
+Bài hát đều đều tăng tiến nhưng rất buồn, có thể tưởng tượng như là một sự hồi
+tưởng xa xăm của một cô gái nhớ về những năm tháng, những người bạn cũ; mong
+muốn gạt bỏ những thứ xô bồ của xã hội (tẩy trắng răng, phấn son,...) để được
+sống trọn vẹn tuổi 17 như đã từng như thế.
 
 <iframe width="640" height="480" src="http://www.youtube.com/embed/xl3PyTqsc5c" frameborder="0">
 </iframe>
@@ -101,4 +106,4 @@ thì phí cả cuộc đời rồi. :3
 
 ----
 
-*I miss being 17.*
+*I miss being 17. All my friends are gone.*
