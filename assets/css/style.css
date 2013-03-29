@@ -52,7 +52,7 @@ article {
 */
 
 hr {
-    
+
 }
 
 article section {
@@ -222,4 +222,8 @@ figcaption {
 
 footer pre {
     line-height: 1.2em;
+}
+
+p, iframe {
+    margin-bottom: 20px;
 }
