@@ -11,7 +11,8 @@ SSH server và dùng SFTP truy cập an toàn, hoặc nếu muốn ít phải se
 mà vẫn đồng bộ được với mạng Windows thì có Samba. Tuy nhiên, tất cả các
 giải pháp trên đều không phù hợp với tình huống đột nhiên bạn có một vài
 file nhỏ nhỏ muốn copy nhanh giữa các máy với nhau. Google nhanh có thể
-tìm thấy một vài công cụ chuyên biệt cho việc này nhưng tôi sẽ giới thiệu
+tìm thấy một vài [công cụ chuyên biệt](http://www.webupd8.org/2012/07/nitroshare-send-files-computers-lan-network.html)
+cho việc này nhưng tôi sẽ giới thiệu
 với bạn một cách vô cùng thuận tiện, không phải cài đặt thêm bất cứ thứ
 gì mà chỉ cần có Python luôn luôn sẵn có trong gần như tất cả các Linux 
 distro thông dụng, kể cả Mac OS X cũng cài sẵn.
