@@ -7,28 +7,28 @@
 <html>
     <head>
         <meta charset="utf-8">
-        
+
         <meta name="description" content="{{ page.description }}"/>
-        
+
         <!-- This is for Facebook -->
-<!--
         <meta property="og:title" content="{{ page.title }}"/>
-        <meta property="og:url" content="http://ngôchin.vn{{ page.url }}"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://ngochin.com{{ page.url }}"/>
         <meta property="og:site_name" content="Geeky Geek"/>
         <meta property="og:description" content="{{ page.description }}"/>
--->
+
         <title>{{ page.title }}</title>
         <!-- Bootstrap -->
         <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="/assets/css/style.css" rel="stylesheet" media="screen">
         <link href='/assets/css/typefaces.css' rel='stylesheet' type='text/css'>
         <link href='/assets/css/pygments.css' rel='stylesheet' type='text/css'>
-        
-        <link rel="shortcut icon" 
-            type="image/png" 
+
+        <link rel="shortcut icon"
+            type="image/png"
             href="/favicon.png"/>
-            
-        <link rel="alternate" type="application/rss+xml" 
+
+        <link rel="alternate" type="application/rss+xml"
             title="RSS Feed"
             href="/feed.html"/>
     </head>
@@ -50,10 +50,10 @@
                     <a href="#bottom">Who's Chin?</a>
                 </div>
             </header>
-            
+
             <div class="content">{{ content }}</div>
         </div>
-        
+
         <footer>
             <div class="container">
                 <div class="row">
@@ -93,12 +93,12 @@
                     "target":"_blank"
                     });
             });
-            
+
             $("a[href='#bottom']").click(function() {
               $("html, body").animate({ scrollTop: $(document).height() }, 1500);
               return false;
             });
-            
+
             $("a[href='#top']").click(function() {
               $("html, body").animate({ scrollTop: 0 }, 1500);
               return false;
