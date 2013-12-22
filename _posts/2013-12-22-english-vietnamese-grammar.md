@@ -39,6 +39,10 @@ No discrimination between I, you, he, she, it, they, we.
 
 > I be, he be, she be.
 
+Pronouns stay the same despite whether they are subject or object.
+
+> Mom did give that present to I.
+
 ## Tenses
 
 No transformation, use infinitive forms in all tenses.
@@ -84,10 +88,6 @@ Vietnamese is very flexible with word class. Oftentimes, a verb can be put into 
 Adjectives can also be used as adverbs.
 
 > I walk very quick.
-
-Pronouns stay the same whether they are subject or object.
-
-> Mom did give that present to I.
 
 ## Ownership
 
