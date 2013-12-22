@@ -18,7 +18,9 @@ The Vietnamese method has the advantage of being much more regular and easier to
 No countability/uncountability. Therefore, we can ditch **much** for **many**; **fewer** for **less**; **people** for **person**.
 
 > one car, two car, three car
+
 > many water
+
 > less person
 
 ## Plurality
@@ -29,7 +31,9 @@ Just write the normal noun, prefixed by **nhung** (những). Use **many** if you
 
 > I have many car.
 
-## No discrimination with pronouns
+## Pronouns
+
+No discrimination between I, you, he, she, it, they, we.
 
 > I run, he run, she run, they run, we run.
 
@@ -57,7 +61,7 @@ Use **did** and/or temporal adverbs/adjectives for the past tense. Usually, if t
 
 ## Aspects
 
-For lack of choice, we'll be "borrowing" the Vietnamese word **dang** for progressive form.
+For lack of choice, we'll be "borrowing" the Vietnamese word **dang** (đang) for progressive form.
 
 > I dang run.
 
@@ -125,4 +129,4 @@ And here's the 'Venglish' version:
 >
 > So she did consider in mind (as good as she could, for that hot day did make she feel very sleepy and stupid), whether pleasure of make a daisy-chain will worth trouble of get up and pick that nhung daisy, when suddenly a White Rabbit with pink eye run close by she.
 
-That sure would take some practice to get used to but in my humble opinion is much simpler and regular than legitimate English.
+That surely would take some practice to get used to but in my humble opinion is much simpler and regular than legitimate English.
