@@ -18,15 +18,17 @@ layout: default
 </div>
 
 <article>
-    
+
     <section id="content">{{ content }}</section>
-    
+
     <section class="copyright-notice">
     <i>&copy; 2012, Chin &lt;ndtrung4419 at gmail dot com&gt; </br>
     Bạn được phép <b>chia sẻ, sáng tạo tự do nhưng không thương mại</b>
     theo các điều khoản của giấy phép
     <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.vi">Creative Commons BY-NC-SA 3.0</a>.</i>
     </section>
+
+    <div class="fb-like" data-href="{{ site.url }}{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
 </article>
 
@@ -51,7 +53,7 @@ layout: default
             var disqus_identifier = '{{ page.id }}';
             var disqus_title = '{{ page.title }}';
             //var disqus_developer = 1;
-            
+
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function() {
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -61,4 +63,12 @@ layout: default
         </script>
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1&appId=421608437910874";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
