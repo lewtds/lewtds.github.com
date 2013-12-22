@@ -59,7 +59,7 @@ Use **did** and/or temporal adverbs/adjectives for the past tense. Usually, if t
 
 > Yesterday, my sister buy me a cake.
 
-## Aspects
+## [Aspects][1]
 
 For lack of choice, we'll be "borrowing" the Vietnamese word **dang** (đang) for progressive form.
 
@@ -72,6 +72,8 @@ Use **already** and **yet** with the past tense to show the perfect.
 Use **be** for passive voice:
 
 > I did be run over by a car. After that, I be bite by a dog.
+
+[1]: http://en.wikipedia.org/wiki/Grammatical_aspect
 
 ## Strong typing
 
@@ -115,7 +117,7 @@ Use **more**, **less** even for short adjectives in comparative comparision
 
 ----
 
-I hope that's enough to cover most common cases. Let's put that into practice by "translating" the two first paragraphs in *Alice in Wonderland* by Lewis into our 'Venglish'.
+I hope that's enough to cover most common cases. Let's put it into practice by "translating" the two first paragraphs in Lewis Carroll's *Alice in Wonderland* into our 'Venglish'.
 
 Here's the original text:
 
