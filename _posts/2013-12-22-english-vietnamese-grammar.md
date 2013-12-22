@@ -119,7 +119,7 @@ Use **more**, **less** even for short adjectives in comparative comparision
 
 ----
 
-I hope that's enough to cover most common cases. Let's put it into practice by "translating" the two first paragraphs in Lewis Carroll's *Alice in Wonderland* into our 'Venglish'.
+I hope that's enough to cover most common cases. Let's put it into practice by "translating" the two first paragraphs in Lewis Carroll's [*Alice in Wonderland*][1] into our 'Venglish'.
 
 Here's the original text:
 
@@ -134,3 +134,5 @@ And here's the 'Venglish' version:
 > So she did consider in mind (as good as she could, for that hot day did make she feel very sleepy and stupid), whether pleasure of make a daisy-chain will worth trouble of get up and pick that nhung daisy, when suddenly a White Rabbit with pink eye run close by she.
 
 That surely would take some practice to get used to but in my humble opinion is much simpler and regular than legitimate English.
+
+[1]: http://www.gutenberg.org/files/11/11-h/11-h.htm
