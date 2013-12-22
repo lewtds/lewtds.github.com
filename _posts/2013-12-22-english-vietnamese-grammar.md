@@ -7,7 +7,7 @@ description: "Crazy proposition for an English that feels more like Vietnamese."
 
 In linguistics, people often speak of the [analytic/synthetic distinction][1], which is a scale that is used to judge how languages incorporate grammatical ideas into words. English and German are considered to be synthetic. That means they synthesize, or **meld**, grammatical notations into normal words. So to convey the past tense, in most cases, English speakers add the suffix **-ed** to the verb. To indicate that the subjects or objects being talked about have more than one items, they add **-s** or **-es** after the noun.
 
-On the other hand, many linguistics consider Vietnamese to be very analytical. That means that Vietnamese words never change their form but in order to acquire new grammatical meaning, we add new words beside the original word. For example, to mean that the action happened in the past, Vietnamese add the word **đã** before the verb.
+On the other hand, many linguists consider Vietnamese to be very analytical. That means that Vietnamese words never change their form but in order to acquire new grammatical meaning, we add new words beside the original word. For example, to mean that the action happened in the past, Vietnamese add the word **đã** before the verb.
 
 The Vietnamese method has the advantage of being much more regular and easier to learn. That's why I thought if we can somehow alter the grammatical rules of English to be more like Vietnamese, international communication would be much more efficient. So here is a list of common English grammar points adjusted to be more Vietnamese-like, in no particular order:
 
