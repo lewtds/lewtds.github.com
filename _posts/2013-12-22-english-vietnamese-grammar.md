@@ -1,6 +1,9 @@
-
-
-English in Vietnamese grammar
+---
+layout: post
+title: English in Vietnamese grammar
+tags: english, idea
+description: "Crazy proposition for an English that feels more like Vietnamese."
+---
 
 In linguistics, people often speak of the analytic/synthetic distinction, which is a scale that is used to judge how languages incorporate grammatical ideas into themselves. English and German are considered to be synthetic. That means they synthesize, **meld** grammatical notations into normal words. So to convey the past tense, in most cases, English speakers add the suffix **-ed** to the verb. To indicate that the subjects or objects being talked about have more than one items, they add **-s** or **-es** after the noun.
 
