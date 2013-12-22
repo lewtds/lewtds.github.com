@@ -41,7 +41,7 @@ No discrimination between I, you, he, she, it, they, we.
 
 ## Tenses
 
-No transformation in tense. Use infinitive forms in all tenses.
+No transformation, use infinitive forms in all tenses.
 
 > I run.
 
