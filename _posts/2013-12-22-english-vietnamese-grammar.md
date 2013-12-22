@@ -5,11 +5,13 @@ tags: english, idea
 description: "Crazy proposition for an English that feels more like Vietnamese."
 ---
 
-In linguistics, people often speak of the analytic/synthetic distinction, which is a scale that is used to judge how languages incorporate grammatical ideas into themselves. English and German are considered to be synthetic. That means they synthesize, **meld** grammatical notations into normal words. So to convey the past tense, in most cases, English speakers add the suffix **-ed** to the verb. To indicate that the subjects or objects being talked about have more than one items, they add **-s** or **-es** after the noun.
+In linguistics, people often speak of the [analytic/synthetic distinction][1], which is a scale that is used to judge how languages incorporate grammatical ideas into words. English and German are considered to be synthetic. That means they synthesize, or **meld**, grammatical notations into normal words. So to convey the past tense, in most cases, English speakers add the suffix **-ed** to the verb. To indicate that the subjects or objects being talked about have more than one items, they add **-s** or **-es** after the noun.
 
-On the other hand, many linguistics consider Vietnamese to be very analytical. That means that Vietnamese words never change their form but in order to acquire new grammatical meaning, we add new word into the original word. For example, to convey the sense that the action happened in the past, Vietnamese add the word **da** before the verb.
+On the other hand, many linguistics consider Vietnamese to be very analytical. That means that Vietnamese words never change their form but in order to acquire new grammatical meaning, we add new words beside the original word. For example, to mean that the action happened in the past, Vietnamese add the word **đã** before the verb.
 
 The Vietnamese method has the advantage of being much more regular and easier to learn. That's why I thought if we can somehow alter the grammatical rules of English to be more like Vietnamese, international communication would be much more efficient. So here is a list of common English grammar points adjusted to be more Vietnamese-like, in no particular order:
+
+[1]: http://en.wikipedia.org/wiki/Morphological_typology
 
 ## Countability
 
@@ -21,14 +23,16 @@ No countability/uncountability. Therefore, we can ditch **much** for **many**; *
 
 ## Plurality
 
-Just write the normal noun, prefixed by **nhung**. Use **many** if you want to emphasize the large number.
+Just write the normal noun, prefixed by **nhung** (những). Use **many** if you want to emphasize the large number.
 
 > I love nhung beautiful day when I be a child.
+
 > I have many car.
 
 ## No discrimination with pronouns
 
 > I run, he run, she run, they run, we run.
+
 > I be, he be, she be.
 
 ## Tenses
@@ -36,7 +40,9 @@ Just write the normal noun, prefixed by **nhung**. Use **many** if you want to e
 No transformation in tense. Use infinitive forms in all tenses.
 
 > I run.
+
 > I will run.
+
 > I did run.
 
 Add **will** or **plan to** for future.
@@ -46,6 +52,7 @@ Add **will** or **plan to** for future.
 Use **did** and/or temporal adverbs/adjectives for the past tense. Usually, if the first sentence in a paragraph is in the past, it it implied that the rest are also in the past.
 
 > I did eat.
+
 > Yesterday, my sister buy me a cake.
 
 ## Aspects
@@ -81,6 +88,7 @@ Pronouns stay the same whether they are subject or object.
 Use **of**. Ditch the possessive case completely.
 
 > Mom of Jane
+
 > BAD: Jane's mom
 
 ## Articles
