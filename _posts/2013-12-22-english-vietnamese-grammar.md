@@ -91,11 +91,13 @@ Adjectives can also be used as adverbs.
 
 ## Ownership
 
-Use **of**. Ditch the possessive case completely.
+Use **of**. Ditch the [possessive case][1] completely.
 
 > Mom of Jane
 
 > BAD: Jane's mom
+
+[1]: http://en.wikipedia.org/wiki/Possessive#Possessive_as_a_case
 
 ## Articles
 
