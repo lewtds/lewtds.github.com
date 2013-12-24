@@ -5,7 +5,7 @@ tags: english, idea
 description: "Crazy proposition for an English that feels more like Vietnamese."
 ---
 
-> Update 2013/12/24: Thanks [@cmptig][https://github.com/cmpitg/] for some spelling/grammar corrections.
+> Update 2013/12/24: Thanks [@cmptig](https://github.com/cmpitg/) for some spelling/grammar corrections.
 
 In linguistics, people often speak of the [analytic/synthetic distinction][1], which is a scale that is used to judge how languages incorporate grammatical ideas into words. English and German are considered to be synthetic. That means they synthesize, or **meld**, grammatical notations into normal words. So to convey the past tense, in most cases, English speakers add the suffix **-ed** to the verb. To indicate that the subjects or objects being talked about have more than one items, they add **-s** or **-es** after the noun.
 
