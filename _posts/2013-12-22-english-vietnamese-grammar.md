@@ -5,6 +5,8 @@ tags: english, idea
 description: "Crazy proposition for an English that feels more like Vietnamese."
 ---
 
+> Update 2013/12/24: Thanks [@cmptig][https://github.com/cmpitg/] for some spelling/grammar corrections.
+
 In linguistics, people often speak of the [analytic/synthetic distinction][1], which is a scale that is used to judge how languages incorporate grammatical ideas into words. English and German are considered to be synthetic. That means they synthesize, or **meld**, grammatical notations into normal words. So to convey the past tense, in most cases, English speakers add the suffix **-ed** to the verb. To indicate that the subjects or objects being talked about have more than one items, they add **-s** or **-es** after the noun.
 
 On the other hand, many linguists consider Vietnamese to be very analytical. That means that Vietnamese words never change their form but in order to acquire new grammatical meaning, we add new words beside the original word. For example, to mean that the action happened in the past, Vietnamese add the word **đã** before the verb.
@@ -15,7 +17,7 @@ The Vietnamese method has the advantage of being much more regular and easier to
 
 ## Countability
 
-No countability/uncountability. Therefore, we can ditch **much** for **many**; **fewer** for **less**; **people** for **person**.
+No countability. Therefore, we can ditch **much** for **many**; **fewer** for **less**; **people** for **person**.
 
 > one car, two car, three car
 
@@ -25,7 +27,7 @@ No countability/uncountability. Therefore, we can ditch **much** for **many**; *
 
 ## Plurality
 
-Just write the normal noun, prefixed by **nhung** (những). Use **many** if you want to emphasize the large number.
+Just write the normal noun, prefixed by **nhung** (những). Use **many** if you want to emphasize large numbers.
 
 > I love nhung beautiful day when I be a child.
 
@@ -107,13 +109,13 @@ No need for **the**. Use **that** or **this**.
 
 Add **man**, **women**, or preferably, **person** after the job. So instead of **designer**, we have **design person** or **design guy**, **design girl**.
 
-## Comparision
+## Comparison
 
-Use **more**, **less** even for short adjectives in comparative comparision
+Use **more**, **less** even for short adjectives in comparative comparison
 
 > I be more tall than you.
 
-**Most** can be used for all adjectives in superlative comparision
+**Most** can be used for all adjectives in superlative comparison
 
 > He be most smart in class of he.
 
