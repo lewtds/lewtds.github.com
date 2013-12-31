@@ -86,7 +86,7 @@ Nói tóm lại là không **type-safe**.
 
 Rất may nếu bạn sử dụng Linux, FreeBSD hay bất cứ hệ điều hành Unix nào thì hệ thống đã đi kèm sẵn một "thư viện" linked list cho C nằm ở `sys/queue.h` sử dụng hoàn toàn preprocessor và quan trọng hơn cả là **type-safe**. Thư viện này thực chất chỉ là một file .h được viết bởi trường Đại học California và phát hành với giấy phép BSD (sử dụng thoải mái trong các dự án commercial, miễn là giữ tên tác giả và phát hành cùng giấy phép gốc).
 
-Cách tốt nhất để học cách sử dụng thư viện này là đọc [manpage][2] của nó bằng lệnh `man queue`, có giải thích và ví dụ rất rõ ràng, hoặc đọc thẳng [mã nguồn][1]. Tuy nhiên, tôi cũng sẽ làm một tutorial giống hệt chương trình ở trên nhưng sử dụng `queue.h`. Những dòng nào sử dụng macro sẽ được expand trong comment:
+Cách tốt nhất để học cách sử dụng thư viện này là đọc [manpage][2] của nó bằng lệnh `man queue`, có giải thích và ví dụ rất rõ ràng, hoặc đọc thẳng [mã nguồn][1]. Tuy nhiên, tôi cũng sẽ làm một tutorial giống hệt chương trình ở trên nhưng sử dụng `queue.h`. Những dòng nào có macro sẽ được expand trong comment:
 
 [1]: http://fxr.watson.org/fxr/source/sys/queue.h
 [2]: http://www.freebsd.org/cgi/man.cgi?query=queue
