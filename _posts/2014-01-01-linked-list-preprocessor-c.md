@@ -5,7 +5,9 @@ tags: c, programming
 description: "Giới thiệu về queue.h"
 ---
 
-C nói chung không phải là ngôn ngữ dễ. Nếu bạn khởi đầu với Python hay Java thì sẽ rất shock khi viết chương trình đầu tiên bằng C bởi mọi cấu trúc dữ liệu bạn thường dùng như *list*, *hashmap*/*dictionary* đều không có sẵn mà phải tự build tay hết. Trong đó kiểu dữ liệu mà bạn nhớ nhất có lẽ là list, đúng hơn là linked list với độ dài vô hạn.
+C nói chung không phải là ngôn ngữ dễ. Nếu bạn khởi đầu với Python hay Java thì sẽ rất shock khi viết chương trình đầu tiên bằng C bởi mọi cấu trúc dữ liệu bạn thường dùng như *list*, *hashmap*/*dictionary* đều không có sẵn mà phải tự build tay hết. Trong đó kiểu dữ liệu mà bạn nhớ nhất có lẽ là list, đúng hơn là [linked list][1] với độ dài vô hạn.
+
+[1]: http://en.wikipedia.org/wiki/Linked_list
 
 Phần lớn mọi người tự build lấy struct và các hàm xử lý list riêng cho mình. Và nếu bạn giống tôi (tức là một tay gà mờ), thì có thể list của bạn trông sẽ giống như thế này:
 
@@ -84,12 +86,13 @@ Hơn nữa, khi bạn viết một hàm có chứa một list trong danh sách a
 
 Nói tóm lại là không **type-safe**.
 
-Rất may nếu bạn sử dụng Linux, FreeBSD hay bất cứ hệ điều hành Unix nào thì hệ thống đã đi kèm sẵn một "thư viện" linked list cho C nằm ở `sys/queue.h` sử dụng hoàn toàn preprocessor và quan trọng hơn cả là **type-safe**. Thư viện này thực chất chỉ là một file .h được viết bởi trường Đại học California và phát hành với giấy phép BSD (sử dụng thoải mái trong các dự án commercial, miễn là giữ tên tác giả và phát hành cùng giấy phép gốc).
+Rất may nếu bạn sử dụng Linux, FreeBSD hay bất cứ hệ điều hành Unix nào thì hệ thống đã đi kèm sẵn một "thư viện" linked list cho C nằm ở `sys/queue.h` sử dụng hoàn toàn [preprocessor][3] và quan trọng hơn cả là **type-safe**. Thư viện này thực chất chỉ là một file .h được viết bởi trường Đại học California và phát hành với giấy phép BSD (sử dụng thoải mái trong các dự án commercial, miễn là giữ tên tác giả và phát hành cùng giấy phép gốc).
 
 Cách tốt nhất để học cách sử dụng thư viện này là đọc [manpage][2] của nó bằng lệnh `man queue`, có giải thích và ví dụ rất rõ ràng, hoặc đọc thẳng [mã nguồn][1]. Tuy nhiên, tôi cũng sẽ làm một tutorial giống hệt chương trình ở trên nhưng sử dụng `queue.h`. Những dòng nào có macro sẽ được expand trong comment:
 
 [1]: http://fxr.watson.org/fxr/source/sys/queue.h
 [2]: http://www.freebsd.org/cgi/man.cgi?query=queue
+[3]: http://en.wikipedia.org/wiki/C_preprocessor
 
 {% highlight C %}
 #include <stdio.h>
