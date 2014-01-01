@@ -1,7 +1,7 @@
 ---
 layout: post
 title: «¡£eß spæk Germän!»
-description: Thực ra ý mình lã gõ tiếng Đức (và một số ký tự đặc biệt) bằng bàn phím tiếng Anh trong GNU/Linux =)
+description: Gõ tiếng Đức (và một số ký tự đặc biệt) bằng bàn phím tiếng Anh trong GNU/Linux.
 ---
 
 Gần đây mình đang học tiếng Đức. Ở mức cơ bản thì có thể nói rằng đây là
@@ -23,7 +23,7 @@ Bàn phím QWERTZ của Đức.
 
 Mình đã định dùng kiểu mapping
 này cho bàn phím của Mỹ nhưng cảm thấy không ổn vì mình không gõ bàn
-phím QWERTY thông thường mà sử dụng một kiểu layout khác là DVORAK 
+phím QWERTY thông thường mà sử dụng một kiểu layout khác là DVORAK
 đỡ mỏi, nhức tay hơn và có thể cho tốc độ gõ nhanh hơn. Với kiểu DVORAK dành cho tiếng
 Đức thì rất không may, phím Ä lại nằm đúng vị trí phím thêm vào bên cạnh
 phím Z ban đầu nên hoàn toàn không thể gõ được bằng bàn phím kiểu US.
@@ -48,9 +48,9 @@ trong môi trường Linux.
 
 Compose Key không chỉ gõ được tiếng Đức mà một loạt ngôn ngữ đơn giản khác
 mà không phải dùng quá nhiều ký tự đặc biệt như tiếng Pháp, tiếng Tây Ban Nha
-... Thậm chí là gõ emo (☺), gõ ký tự toán học đơn giản(÷, ½),... Wikipedia đã tổng hợp 
-một bảng ngắn tổ hợp phím cho [những ký tự hay dùng](http://en.wikipedia.org/wiki/Compose_key#Common_compose_combinations). 
-Bạn có thể tham khảo bảng tra cứu đầy đủ hơn ở [đây](http://www.hermit.org/Linux/ComposeKeys.html). 
+... Thậm chí là gõ emo (☺), gõ ký tự toán học đơn giản(÷, ½),... Wikipedia đã tổng hợp
+một bảng ngắn tổ hợp phím cho [những ký tự hay dùng](http://en.wikipedia.org/wiki/Compose_key#Common_compose_combinations).
+Bạn có thể tham khảo bảng tra cứu đầy đủ hơn ở [đây](http://www.hermit.org/Linux/ComposeKeys.html).
 Còn nếu muốn tìm được danh sách đầy đủ các chuỗi Compose Key có thể trên hệ thống của bạn thì
 nên xem [câu trả lời này](http://askubuntu.com/questions/34932/where-can-i-find-the-full-list-of-compose-combinations-for-my-locale) trên trang *stackoverflow*.
 
