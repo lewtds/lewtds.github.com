@@ -1,4 +1,5 @@
-pygments: true
+highlighter: pygments
+markdown: redcarpet
 
 name: Chin
 description: Chin's weblog about Linux, FOSS, Web, DIY, music, movies and stuffs.
