@@ -243,3 +243,13 @@ h2.post-title {
 .geeky-catchphrase > a > div {
     margin-bottom: 0.5em;
 }
+
+/* FOOTER */
+
+footer ul.inline-list li {
+    margin-bottom: 10px;
+}
+
+footer ul.inline-list {
+    margin-bottom: 0;
+}
