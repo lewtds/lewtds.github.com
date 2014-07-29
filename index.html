@@ -4,39 +4,56 @@ title: Chin
 description: Chin's weblog about Linux, FOSS, Web, DIY, music, movies and stuffs.
 ---
 
-{% for post in site.posts limit: 10  %}
-{% if forloop.last %}
-    <article class="center-text" style="margin-bottom:80px;">
-{% else %}
-    <article class="center-text">
-{% endif %}
-        <section>
-    	  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    	  <p class="date"><i><small>{{ post.date | date_to_string }}
-          {% unless post.tags == empty %}
-          &nbsp;&nbsp;|&nbsp;&nbsp;
-          {% for tag in post.tags %}
-          <a href="#" class="no-border">{{ tag }}</a>
-          {% endfor %}
-          {% endunless %}
-          </small></i>
-          </p>
-          {{ post.description }}
-    	</section>
-        {% unless forloop.last %}
-            <i class="icon-asterisk hr"></i>
-        {% endunless %}
-<!--
-    	<section class="tags">
-    	  <ul>
-    	    <li>Filed under:</li>
-    	  {% for tag in post.tags %}
-    	    <li><a href="#">{{ tag | capitalize }}</a></li>
-    	  {% endfor %}
-    	  </ul>
-    	</section>
--->
+<p>
+    <a href="https://www.facebook.com/lewtds" class="external"><b>Ngô Trung</b></a>
+    là một Linux developer. Những lúc rảnh rỗi anh ấy thường lang thang trên
+    <a href="https://github.com/lewtds" class="external">Github</a>,
+    nghe các thể loại nhạc không phải mainstream, chơi với mèo và tìm đường startup.
+</p>
 
-    </article>
+<br>
+<strong>Các bài viết mới nhất</strong>
+<hr>
 
+{% for post in site.posts limit: 3  %}
+<div class="row post-preview">
+    <div class="columns medium-2 text-right show-for-medium-up post-meta">
+        {{ post.date | date_to_string }}
+    </div>
+
+    <div class="columns medium-10 post-mast">
+        <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="post-description">
+        {{ post.description }}
+        </p>
+    </div>
+</div>
 {% endfor %}
+
+<div class="text-right">
+   <a href="/archive">(xem thêm...)</a>
+</div>
+
+<br>
+<strong>Các dự án nổi bật</strong>
+<hr>
+
+<div class="post-preview">
+    <h3><a href="https://github.com/bogoengine/bogo-python">bogo-python</a></h3>
+    <p class="post-description">Một thư viện đặt dấu tiếng Việt viết bằng Python.</p>
+</div>
+
+<div class="post-preview">
+    <h3><a href="https://github.com/bogoengine/ibus-bogo">ibus-bogo</a></h3>
+    <p class="post-description">Phần mềm gõ tiếng Việt trên Linux sử dụng bogo-python.</p>
+</div>
+
+<div class="post-preview">
+    <h3><a href="https://github.com/pirackr/Sublime-Bogo/">Sublime BoGo</a></h3>
+    <p class="post-description">Plugin gõ tiếng Việt cho Sublime Text sử dụng bogo-python (main contributor).</p>
+</div>
+
+<div class="post-preview">
+    <h3><a href="https://github.com/lewtds/libviet/">libviet</a></h3>
+    <p class="post-description">Tập hợp một số thao tác xử lý ngôn ngữ tự nhiên cho tiếng Việt.</p>
+</div>
