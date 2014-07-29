@@ -7,11 +7,11 @@ layout: default
     <header>
       <div class="row">
 
-        <div class="columns medium-10 medium-push-2 small-12 post-mast">
+        <div class="columns post-mast">
             <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
         </div>
 
-        <div class="columns medium-2 medium-pull-10 small-12 post-meta">
+        <div class="columns post-meta">
             {{ page.date | date_to_string }}
 
             {% unless page.tags == empty %}
@@ -31,7 +31,7 @@ layout: default
     <hr>
 
     <div class="row">
-      <div id="content" class="columns medium-9 medium-offset-2">
+      <div id="content" class="columns medium-9">
         <p class="post-description">
         {{ page.description }}
         </p>

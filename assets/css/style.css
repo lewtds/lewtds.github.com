@@ -26,13 +26,12 @@ h2.post-title {
 
 @media only screen and (min-width: 40.063em) {
     .post-mast {
-        border-left: 1px dashed;
+        /*border-left: 1px dashed;*/
     }
 
     .post-meta {
         margin-top: 20px;
         line-height: 1.4em;
-        text-align: right;
     }
 }
 
