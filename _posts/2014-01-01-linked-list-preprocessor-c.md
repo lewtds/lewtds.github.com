@@ -11,7 +11,7 @@ C nói chung không phải là ngôn ngữ dễ. Nếu bạn khởi đầu với
 
 Phần lớn mọi người tự build lấy struct và các hàm xử lý list riêng cho mình. Và nếu bạn giống tôi (tức là một tay gà mờ), thì có thể list của bạn trông sẽ giống như thế này:
 
-```C
+{% highlight C %}
 #include <malloc.h>
 #include <stdio.h>
 #include <string.h>
@@ -77,7 +77,8 @@ int main() {
 
     return 0;
 }
-```
+
+{% endhighlight %}
 
 Thiết kế này nói chung là hoạt động tốt nhưng có một điểm cực kỳ bất lợi là sử dụng con trỏ void. Khi debug, bạn vẫn có thể traverse qua list của bạn bằng tay nhưng các entry trong list sẽ hiện ra là một con trỏ void vô cùng tối nghĩa. Nếu bạn may mắn có một debugger tốt thì còn có thể ép kiểu con trỏ đó về đúng kiểu mong muốn. Nhưng chắc cũng chả ai muốn đi ép kiểu thủ công với từng item như thế cả.
 
