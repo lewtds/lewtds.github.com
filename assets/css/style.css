@@ -1,5 +1,5 @@
 html, body {
-    font-family: Open Sans;
+    font-family: "Open Sans", sans-serif;
 
     /* Don't ever go smaller than 14pt for main text */
     font-size: 16pt;
