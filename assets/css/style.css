@@ -42,6 +42,10 @@ h2.post-title {
 
 /* TYPOGRAPHY */
 
+p, pre, iframe {
+    margin-bottom: 1.2em;
+}
+
 @media only screen and (min-width: 40.063em) {
     blockquote {
         margin-left: -26px;
@@ -153,10 +157,6 @@ figure {
 figcaption {
     font-style: italic;
     text-align: center;
-}
-
-p, iframe {
-    margin-bottom: 20px;
 }
 
 *::selection {
