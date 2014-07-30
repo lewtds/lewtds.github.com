@@ -98,62 +98,50 @@
                 <div class="row">
                     <div class="large-8 large-centered columns">
                         {{ content }}
+                        
+                        <hr>
                     </div>
                 </div>
 
 
                 <footer>
                     <div class="row">
-                        <div class="large-8 large-centered columns">
 
-                            <hr>
-
+                        <div class="columns large-3 large-offset-2">
                             <ul class="inline-list">
-                                <li><a href="http://twitter.com/ngo_chin"><i class="fa fa-twitter"></i>&nbsp;ngo_chin</a></li>
-                                <li><iframe src="http://ghbtns.com/github-btn.html?user=lewtds&type=follow&count=true&size=large"
-                                            height="34"
+                                <li class="list-start">
+                                    <a href="http://twitter.com/ngo_chin"><i class="fa fa-twitter"></i></a></li>
+                                <li>
+                                    <a href="/feed">
+                                        <i class="fa fa-rss"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <iframe src="http://ghbtns.com/github-btn.html?user=lewtds&type=follow"
+                                            height="20"
                                             width="168"
                                             frameborder="0"
                                             scrolling="0"
-                                            allowtransparency="true">
+                                            allowtransparency="true"
+                                            id="github-follow">
                                     </iframe>
                                 </li>
                             </ul>
 
-                            
-
-                            <!-- Begin MailChimp Signup Form -->
-                            <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-                            <style type="text/css">
-                                #mc_embed_signup {
-                                    clear: left;
-                                    font-size: 14px;
-                                }
-
-                                #mc-embedded-subscribe-form {
-                                    padding: 0 !important;
-                                }
-                            </style>
-                            <div id="mc_embed_signup">
-                            <form action="//ngochin.us8.list-manage.com/subscribe/post?u=09c42bcfaaa731ddb3cde6c1c&amp;id=65e4760927" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                <label for="mce-EMAIL">Subscribe to see more of this</label>
-                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_09c42bcfaaa731ddb3cde6c1c_65e4760927" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                            </form>
-                            </div>
-
-                            <!--End mc_embed_signup-->
-
-
-                            <p>
+                            <p class="copyright-notice">
                                 © 2013, Chin «&nbsp;<a href="mailto:ndtrung4419@gmail.com" class="external">ndtrung4419@gmail.com</a>&nbsp;»
                                 <br/>Some rights reserved.<br/>
                                 <a rel="license" class="external"href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.vi">
                                 <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a>
                             </p>
                         </div>
+
+
+                        <div class="large-4 columns end">
+                            {% include mail_chimps.html %}
+                        </div>
+
+
                     </div>
                 </footer>
             </div>

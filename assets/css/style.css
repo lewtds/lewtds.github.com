@@ -42,7 +42,7 @@ h2.post-title {
 
 /* TYPOGRAPHY */
 
-p, pre, iframe {
+p, pre {
     margin-bottom: 1.2em;
 }
 
@@ -97,9 +97,15 @@ footer {
     width: 100%;
     position: relative;
     z-index: 10;
-    font-size: 13px;
 }
 
+footer ul.inline-list i {
+    vertical-align: top;
+}
+
+footer ul.inline-list li:not(.list-start) {
+    margin-left: 15px;
+}
 
 /* MISC */
 
@@ -144,9 +150,10 @@ a {
 }
 
 .copyright-notice {
-    margin: 40px 0;
-    text-align: right;
-    font-size: 10px;
+    /*margin: 40px 0;*/
+    /*text-align: right;*/
+    font-size: 8pt;
+    margin-bottom: 20px;
 }
 
 figure {
@@ -167,4 +174,13 @@ figcaption {
 *::-moz-selection {
     background-color: #748DA3;
     color: white;
+}
+
+#mc_embed_signup {
+    clear: left;
+    font-size: 14px;
+}
+
+#mc-embedded-subscribe-form {
+    padding: 0 !important;
 }
