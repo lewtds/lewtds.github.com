@@ -38,10 +38,10 @@
         
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.3.1/css/normalize.min.css">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.3.1/css/foundation.min.css" />
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 
         <link rel="stylesheet" href="/assets/css/style.css" media="screen">
         <link rel="stylesheet" href="/assets/css/typefaces.css">
+        <link rel="stylesheet" href="/assets/css/fontello.css">
         <link rel="stylesheet" href="/assets/css/solarized-light.css">
 
         <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.3.1/js/vendor/modernizr.min.js"></script>
@@ -80,8 +80,8 @@
                         </div>
                         {% else %}
                         <div class="columns small-3 medium-2">
-                            <a href="/">
-                                <i class="fa fa-chevron-left fa-2x"></i>
+                            <a href="/" class="back-button">
+                                <i class="icon-left-open-big"></i>
                             </a>
                         </div>
                         {% endif %}
@@ -89,7 +89,7 @@
                         <!-- Menu icon -->
                         <div class="columns small-4 medium-2 large-1 text-right">
                             <a class="right-off-canvas-toggle" href="#" >
-                                <i class="fa fa-bars fa-2x"></i>
+                                <i class="icon-menu"></i>
                             </a>
                         </div>
                     </div>
@@ -110,10 +110,13 @@
                         <div class="columns large-3 large-offset-2">
                             <ul class="inline-list">
                                 <li class="list-start">
-                                    <a href="http://twitter.com/ngo_chin"><i class="fa fa-twitter"></i></a></li>
+                                    <a href="http://twitter.com/ngo_chin">
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                </li>
                                 <li>
                                     <a href="/feed">
-                                        <i class="fa fa-rss"></i>
+                                        <i class="icon-rss"></i>
                                     </a>
                                 </li>
                                 <li>

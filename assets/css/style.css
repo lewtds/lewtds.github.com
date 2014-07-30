@@ -101,6 +101,10 @@ footer {
 
 footer ul.inline-list i {
     vertical-align: top;
+
+    /* not sure how this works but it forces the
+       icons to top vertical align with the github follow button */
+    line-height: 0em;
 }
 
 footer ul.inline-list li:not(.list-start) {
@@ -183,4 +187,9 @@ figcaption {
 
 #mc-embedded-subscribe-form {
     padding: 0 !important;
+}
+
+a.right-off-canvas-toggle > i.icon-menu,
+a.back-button > i.icon-left-open-big {
+    font-size: 2em;
 }
