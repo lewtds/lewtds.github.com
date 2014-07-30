@@ -64,6 +64,8 @@
                 <!-- main content goes here -->
                 <header class="top-header">
                     <div class="row">
+
+                        {% if page.url == "/" %}
                         <div class="columns small-3 medium-2 large-1 large-offset-2">
                             <a href="/">
                                 <img src="/assets/img/emo.png">
@@ -76,6 +78,13 @@
                                 <div>if a geeky geek could geek geeks?</div>
                             </a>
                         </div>
+                        {% else %}
+                        <div class="columns small-3 medium-2">
+                            <a href="/">
+                                <i class="fa fa-chevron-left fa-2x"></i>
+                            </a>
+                        </div>
+                        {% endif %}
 
                         <!-- Menu icon -->
                         <div class="columns small-4 medium-2 large-1 text-right">
