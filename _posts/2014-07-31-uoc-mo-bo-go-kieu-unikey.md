@@ -90,7 +90,8 @@ trên Windows với nhiều kỹ thuật và mức hiệu quả khác nhau.
 
 Trên môi trường Unix thì X11 là phần mềm quản lý giao diện đồ họa, mọi thao
 tác nhập xuất bàn phím, con trỏ, hiển thị ra màn hình đều phải qua X11. Vì vậy
-có thể thấy cách đơn giản nhất là tạo phím backspace giả từ X11.
+dễ thấy nhất là tạo phím backspace giả từ X11 thông qua hàm `XSendEvent()` tới
+ứng dụng đang nhận focus.
 [xvnkb](http://xvnkb.sourceforge.net/hacking/xvnkb1-hacking.html) phiên bản
 0.1 sử dụng phương pháp này. Về ý tưởng thì gần như giống hệt Unikey, trên Win
 Unikey sử dụng hàm `PostMessageW()` với message type là `WM_IME_CHAR` hoặc
