@@ -91,7 +91,6 @@ trên Windows với nhiều kỹ thuật và mức hiệu quả khác nhau.
 Trên môi trường Unix thì X11 là phần mềm quản lý giao diện đồ họa, mọi thao
 tác nhập xuất bàn phím, con trỏ, hiển thị ra màn hình đều phải qua X11. Vì vậy
 có thể thấy cách đơn giản nhất là tạo phím backspace giả từ X11.
-[xunikey](http://unikey.org/linux.php) và
 [xvnkb](http://xvnkb.sourceforge.net/hacking/xvnkb1-hacking.html) phiên bản
 0.1 sử dụng phương pháp này. Về ý tưởng thì gần như giống hệt Unikey, trên Win
 Unikey sử dụng hàm `PostMessageW()` với message type là `WM_IME_CHAR` hoặc
@@ -131,7 +130,8 @@ Thế nhưng, vì được implement phía ứng dụng nên phương pháp này
 vấn đề là có ứng dụng hỗ trợ, ứng dụng không (VD: Google Chrome từ bản 35.xxx
 trở lên là không hỗ trợ [#216 @ ibus-bogo](https://github.com/BoGoEngine/ibus-bogo/issues/216)).
 
-ibus-bogo và [scim-unikey](https://code.google.com/p/scim-unikey/) dùng phương
+ibus-bogo, [xunikey](http://unikey.org/linux.php) và 
+[scim-unikey](https://code.google.com/p/scim-unikey/) dùng phương
 pháp này.
 
 ### Hijack X11 function
