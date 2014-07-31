@@ -80,7 +80,7 @@ Wine vì Wine chỉ là một lớp tương thích và không thể biết chín
 trong ứng dụng đang ở ví trí nào. Một vấn đề nữa là nếu bộ gõ chỉ sử dụng
 preedit thì một khi đã commit thì không thể quay trở lại sửa những từ đã gõ ở
 trước. VD như với [ibus-unikey](https://code.google.com/p/ibus-unikey/) thì
-nếu đã gõ **cón có** thì không thể nhấn backspace quay lại sửa dấu cho **ó**
+nếu đã gõ **cón cò** thì không thể nhấn backspace quay lại sửa dấu cho **ó**
 được (ibus- unikey gặp dấu cách sẽ commit luôn).
 
 Vì vậy, nhiều bộ gõ trên Linux đã cố gắng bắt chước kiểu gõ direct của Unikey
@@ -190,15 +190,15 @@ chân, VD như Google Chrome.
 
 Hiện nay, tác giả (cũng là contributor chính của 
 ibus-bogo) đang thử nghiệm
-phương pháp này nhưng không preedit một từ như ibus-unikey và preedit cả một
+phương pháp này nhưng không preedit một từ như ibus-unikey mà preedit cả một
 cụm từ liền nhau để có thể sửa dấu của những từ đứng trước.
 
-## Tương lai với Wayland
+## Hướng tới Wayland
 
-Với Wayland thì nhóm phát triển đã định nghĩa input method là một phần quan
-trọng ngay từ đầu của protocol. 
-[Forward key event](http://cgit.freedesktop.org/wayland/weston/tree/protocol/input-method.xml?id=70ee3ad47c12dc3b4173373f98e1dc1c7486c5d7#n128)
-và [surrounding text](http://cgit.freedesktop.org/wayland/weston/tree/protocol/input-method.xml?id=70ee3ad47c12dc3b4173373f98e1dc1c7486c5d7#n100) cũng
-được định nghĩa. Vì vậy có thể hi vọng rằng một khi đã có một chuẩn chung thì
-mọi ứng dụng sẽ hỗ trợ hai tính năng này một cách ổn định và một bộ gõ kiểu
-Unikey có thể trở thành hiện thực.
+Wayland là một bộ tiêu chuẩn/protocol đang được cộng đồng Linux mong chờ nhằm
+thay thế hệ thống X11 cũ kỹ. Với Wayland thì nhóm phát triển đã xác định
+input method là một phần quan trọng ngay từ đầu của protocol. [Forward key event](http://cgit.freedesktop.org/wayland/weston/tree/protocol/input-method.xml?id=70ee3ad47c12dc3b4173373f98e1dc1c7486c5d7#n128)
+và [surrounding text](http://cgit.freedesktop.org/wayland/weston/tree/protocol/input-method.xml?id=70ee3ad47c12dc3b4173373f98e1dc1c7486c5d7#n100) 
+cũng được định nghĩa. Vì vậy có thể hi vọng rằng một khi đã có một chuẩn chung thì mọi ứng
+dụng sẽ hỗ trợ hai tính năng này một cách ổn định và một bộ gõ kiểu Unikey có
+thể trở thành hiện thực.
