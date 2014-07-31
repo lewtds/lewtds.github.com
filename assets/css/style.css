@@ -75,11 +75,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 code {
+    color: inherit;
+    /*font-weight: inherit;*/
+}
+
+pre code {
     font-size: 12pt;
     font-family: "Source Code Pro", "Droid Sans Mono", monospace;
-    font-style: normal;
-    font-weight: normal;
-    color: #333;
+    font-style: inherit;
+    font-weight: inherit;
+    padding: 1em;
+    overflow: auto;
+    display: block;
+    border: 1px solid #ddd;
 }
 
 /* FOOTER */
