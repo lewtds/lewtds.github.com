@@ -130,7 +130,8 @@ Thế nhưng, vì được implement phía ứng dụng nên phương pháp này
 vấn đề là có ứng dụng hỗ trợ, ứng dụng không (VD: Google Chrome từ bản 35.xxx
 trở lên là không hỗ trợ [#216 @ ibus-bogo](https://github.com/BoGoEngine/ibus-bogo/issues/216)).
 
-ibus-bogo, [xunikey](http://unikey.org/linux.php) và 
+[ibus-bogo](https://github.com/BoGoEngine/ibus-bogo),
+[xunikey](http://unikey.org/linux.php) và 
 [scim-unikey](https://code.google.com/p/scim-unikey/) dùng phương
 pháp này.
 
@@ -187,7 +188,7 @@ trên của preedit. Hơn nữa, trong một số ứng dụng thì không thể
 chân, VD như Google Chrome.
 
 Hiện nay, tác giả (cũng là contributor chính của 
-[ibus-bogo](https://github.com/BoGoEngine/ibus-bogo)) đang thử nghiệm
+ibus-bogo) đang thử nghiệm
 phương pháp này nhưng không preedit một từ như ibus-unikey và preedit cả một
 cụm từ liền nhau để có thể sửa dấu của những từ đứng trước.
 
