@@ -62,6 +62,10 @@ p, pre {
     font-weight: 100;
 }
 
+.geeky-catchphrase a {
+    color: inherit;
+}
+
 .geeky-catchphrase > a > div {
     margin-bottom: 0.5em;
 }
@@ -139,14 +143,14 @@ footer ul.inline-list li:not(.list-start) {
 }
 
 a {
-    color: inherit;
+    color: #748DA3;;
     text-decoration: none;
     /*border-bottom: 1px solid #AAA;*/
 }
 
 a:hover {
     /*border-bottom: 3px solid;*/
-    color: #748DA3;
+    /*color: #748DA3;*/
     text-decoration: none;
 }
 
