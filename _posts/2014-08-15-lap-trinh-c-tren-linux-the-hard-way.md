@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lập trình C trên Ubuntu the hard way
+title: Lập trình C trên Linux the hard way
 tags: programming
 description: ""
 ---
