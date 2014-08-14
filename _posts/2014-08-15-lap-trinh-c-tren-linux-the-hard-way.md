@@ -51,8 +51,8 @@ Bây giờ thì ta có thể bắt đầu với một ứng dụng đầu tiên.
 sau vào file `hello.c` bằng editor đã chọn ở trên.
 
 > Một lập trình viên nên có thói quen sắp xếp trật tự ngăn nắp các file và thư mục
-> liên quan đến lập trình. Bạn có thể tạo một thư mục `dev` ở `$HOME`
-> trong đó có chứa các project, có thể thêm một lớp folder chứa ngôn ngữ nữa:
+> Bạn có thể tạo một thư mục `dev` ở `$HOME`
+> trong đó có chứa các project, nếu muốn có thể thêm một lớp folder chứa ngôn ngữ nữa:
 > 
 > ```
 > $ mkdir --parents $HOME/dev/c/hello
