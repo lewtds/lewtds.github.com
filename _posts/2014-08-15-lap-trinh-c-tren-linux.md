@@ -296,9 +296,10 @@ system("clear");
 Trên Windows, vì khi chạy từ IDE, cửa sổ console sẽ tắt ngay lập tức sau khi
 chương trình chạy xong nên người ta thường thêm lệnh `getch()` ngay cuối chương
 trình làm "đứng hình" console để nhìn rõ kết quả. Với Linux thì lúc nào
-chúng ta cũng ở trong terminal nên không cần lệnh này. Nhưng nếu bạn cần tính
-năng kiểu *Press any key to continue* thì có thể dùng `getchar()` và đổi lời
-nhắn thành *Press ENTER to continue*.
+chúng ta cũng ở trong terminal nên không cần lệnh này.
+
+Nhưng nếu bạn cần tính năng kiểu *Press any key to continue* thì có thể dùng
+`getchar()` và đổi lời nhắn thành *Press ENTER to continue*.
 
 Hoặc hardcore hơn là chuyển terminal về [cbreak mode][1], `getchar()`, rồi chuyển
 lại trở về cooked mode.
