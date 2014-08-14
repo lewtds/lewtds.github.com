@@ -2,7 +2,7 @@
 layout: post
 title: Lập trình C trên Linux the hard way
 tags: programming
-description: ""
+description: "The traditional way."
 ---
 
 Tôi thấy rất nhiều bạn hỏi cách lập trình C trên Ubuntu. Nếu các bạn muốn nhẹ
