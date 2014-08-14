@@ -287,7 +287,7 @@ Chúng ta sẽ implement lại một số tính năng của `conio.h` trên Linu
 Trước hết là hàm clrscr() dùng để xóa trắng terminal. Với Linux thì có thể
 dụng lệnh `clear`:
 
-```
+```C
 system("clear");
 ```
 
@@ -320,7 +320,7 @@ cách `printf` nó ra với ký tự đầu tiên là <ESCAPE> (mã ASCII 0x1B).
 
 Ví dụ, để đổi màu text thành đỏ và background thành vàng chúng ta làm như sau:
 
-```
+```C
 printf("\x1B[31;43m");
 printf("This text is red on yellow background.");
 printf("\x1B[0m\n");  // Reset + new line
