@@ -50,7 +50,7 @@ sudo apt-get install build-essential
 Bây giờ thì ta có thể bắt đầu với một ứng dụng đầu tiên. Bạn gõ chương trình
 sau vào file `hello.c` bằng editor đã chọn ở trên.
 
-> Một lập trình viên nên có thói quen sắp xếp trật tự ngăn nắp các file và thư mục
+> Một lập trình viên nên có thói quen sắp xếp trật tự ngăn nắp các file và thư mục.
 > Bạn có thể tạo một thư mục `dev` ở `$HOME`
 > trong đó có chứa các project, nếu muốn có thể thêm một lớp folder chứa ngôn ngữ nữa:
 > 
