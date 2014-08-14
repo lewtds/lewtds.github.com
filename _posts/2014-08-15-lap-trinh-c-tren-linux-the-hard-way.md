@@ -5,10 +5,10 @@ tags: programming
 description: ""
 ---
 
-Mình thấy rất nhiều bạn hỏi cách lập trình C trên Ubuntu. Nếu các bạn muốn nhẹ
+Tôi thấy rất nhiều bạn hỏi cách lập trình C trên Ubuntu. Nếu các bạn muốn nhẹ
 nhàng, ăn sẵn thì có thể bắt đầu với một [IDE][1] như [Code::Block][2] hay
 [Eclipse có cài CDT][3] hay thậm chí là cài [Borland Turbo C trên DOSBox][4].
-Còn cá nhân mình thích nhất [Qt Creator][5]. Nếu bạn chọn cách này thì vẫn nên
+Còn cá nhân tôi thích nhất [Qt Creator][5]. Nếu bạn chọn cách này thì vẫn nên
 đọc phần [conio.h](#conio.h) bên dưới.
 
 Nhưng nếu các bạn muốn thực sự hiểu sâu vấn đề thì tốt nhất nên code bằng
