@@ -1,6 +1,9 @@
 highlighter: pygments
 markdown: redcarpet
 
+redcarpet:
+    extensions: [with_toc_data]
+
 name: Chin
 description: Chin's weblog about Linux, FOSS, Web, DIY, music, movies and stuffs.
 url: http://ngochin.com
