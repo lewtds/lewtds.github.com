@@ -2,7 +2,7 @@ html, body {
     font-family: "Open Sans", sans-serif;
 
     /* Don't ever go smaller than 14pt for main text */
-    font-size: 16pt;
+    font-size: 14pt;
     height: 100%;
     background-color: #FCF9FF;
 }
