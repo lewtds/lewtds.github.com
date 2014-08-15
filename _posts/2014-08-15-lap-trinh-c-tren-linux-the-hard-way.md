@@ -33,7 +33,8 @@ nano. Bạn nào dùng KDE thì có Kate cũng rất tốt. Trendy hiện nay th
 dùng nhưng rất đáng bỏ công học. Bạn dùng editor nào cũng được, tất cả đều là
 editor tốt.
 
-Tiếp theo sẽ cần một bộ compiler. Thông thường với C/C++ trên Linux thì **gcc**
+Tiếp theo sẽ cần một bộ compiler (là phần mềm để chuyển mã nguồn thành
+chương trình chạy được). Thông thường với C/C++ trên Linux thì **gcc**
 (GNU C Compiler) là compiler thông dụng nhất. Bạn có thể cài đặt gcc và các
 công cụ hỗ trợ bằng một lệnh sau:
 
@@ -85,7 +86,12 @@ chéo nghĩa là chạy file hello ở thư mục hiện tại (biết đâu tro
 bạn lại chứa một chương trình cũng tên là hello?). Nếu bạn không đặt tên cho
 file đầu ra thì theo truyền thống, gcc sẽ tạo file có tên là **a.out**.
 
-Bây giờ bạn muốn thay đổi chương trình và mở rộng thêm một file nữa. Coi như là
+> Một lưu ý nho nhỏ là danh sách các file đầu vào nên là argument đầu tiên
+> của gcc. Nếu không, bạn có thể gặp một vài [lỗi tìm kiếm thư viện][18] rất khó hiểu.
+
+[18]: http://stackoverflow.com/questions/7826448/linking-libraries-with-gcc-order-of-arguments
+
+Bây giờ giả sử bạn muốn thay đổi chương trình và mở rộng thêm một file nữa. Coi như là
 **main.c** đi. Bạn sẽ tách lệnh hiển thị ra màn hình thành hàm `hello()` chứa trong
 **hello.c** còn hàm `main()` thì chứa trong **main.c**.
 
