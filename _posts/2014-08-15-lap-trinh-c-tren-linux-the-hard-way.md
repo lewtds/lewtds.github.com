@@ -317,7 +317,7 @@ system("/bin/stty cooked");
 Terminal thông thường trên Linux tuân theo [chuẩn VT100][1], chuẩn này có định
 nghĩa một số tính năng cho bạn điều khiển trực tiếp terminal sử dụng một loại
 mã đặc biệt gọi là escape code. Bạn gửi mã này tới terminal chỉ đơn giản bằng
-cách `printf` nó ra với ký tự đầu tiên là <ESCAPE> (mã ASCII 0x1B).
+cách `printf` nó ra với ký tự đầu tiên là **ESCAPE** (mã ASCII **0x1B**).
 
 Ví dụ, để đổi màu text thành đỏ và background thành vàng chúng ta làm như sau:
 
