@@ -46,6 +46,10 @@ p, pre {
     margin-bottom: 1.2em;
 }
 
+blockquote {
+    border-left: 2px solid #AAA
+}
+
 @media only screen and (min-width: 40.063em) {
     blockquote {
         margin-left: -26px;
