@@ -29,7 +29,7 @@ editor và compile bằng tay. Giống như cách mà mọi người vẫn làm 
 
 Trước hết chúng ta sẽ cần một text editor. Sẵn có trên Ubuntu thì có Gedit,
 nano. Bạn nào dùng KDE thì có Kate cũng rất tốt. Trendy hiện nay thì có
-[Sublime Text 3][1]. Hard core hơn thì có [Emacs][2] và [Vim][3], ban đầu khó
+[Sublime Text 3][6]. Hard core hơn thì có [Emacs][7] và [Vim][8], ban đầu khó
 dùng nhưng rất đáng bỏ công học. Bạn dùng editor nào cũng được, tất cả đều là
 editor tốt.
 
@@ -41,9 +41,9 @@ công cụ hỗ trợ bằng một lệnh sau:
 sudo apt-get install build-essential
 ```
 
-[1]: http://www.sublimetext.com/3
-[2]: http://david.rothlis.net/emacs/howtolearn.html
-[3]: http://learnvimscriptthehardway.stevelosh.com/
+[6]: http://www.sublimetext.com/3
+[7]: http://david.rothlis.net/emacs/howtolearn.html
+[8]: http://learnvimscriptthehardway.stevelosh.com/
 
 ## Compile thủ công
 
@@ -139,11 +139,11 @@ Hello, World!
 
 Rất tuyệt. Nhưng bạn có để ý nãy giờ là việc compile bằng cách chạy
 gcc trực tiếp thế này rất thủ công không? Stuart Feldman cũng nghĩ
-vậy [vào năm 1976][1] và đã viết chương trình Make để tự động hóa những
+vậy [vào năm 1976][9] và đã viết chương trình Make để tự động hóa những
 thao tác lặp đi lặp lại như thế này. Make đã được cài tự động
 cùng với gói `build-essential` ở trên.
 
-[1]: http://en.wikipedia.org/wiki/Make_%28software%29
+[9]: http://en.wikipedia.org/wiki/Make_%28software%29
 
 Để sử dụng Make, trước hết chúng ta sẽ viết một Makefile đơn giản,
 đặt tên tập tin là **Makefile** và nằm cùng thư mục với chương trình
@@ -243,19 +243,19 @@ sau này bạn muốn compile bằng compiler khác như clang thì chỉ cần 
 `CC=clang make all` là được. Không cần phải thay đổi Makefile.
 
 Với chương trình nhỏ vài file như thế này thì Makefile như vậy là hoàn toàn
-OK. Nhưng bạn có thể nghiên cứu thêm trên Google và [tài liệu tra cứu của GNU Make][1].
-Ngoài ra tôi cũng thấy Makefile của [trình phiên dịch ngôn ngữ Lua][2]
+OK. Nhưng bạn có thể nghiên cứu thêm trên Google và [tài liệu tra cứu của GNU Make][10].
+Ngoài ra tôi cũng thấy Makefile của [trình phiên dịch ngôn ngữ Lua][11]
 được viết cũng rất đơn giản mà vẫn cross-platform, mang sang Windows hay Mac
 OS X vẫn compile được. Rất hợp để nghiên cứu.
 
-Sau này bạn có thể tìm hiểu thêm về [Autotools][3] và [CMake][4] để thay thế việc viết
+Sau này bạn có thể tìm hiểu thêm về [Autotools][12] và [CMake][13] để thay thế việc viết
 Makefile thủ công và tạo hệ thống build tương thích nhiều nền tảng mà không cần
 phải lo nghĩ nhiều.
 
-[1]: https://www.gnu.org/software/make/manual/html_node/Introduction.html#Introduction
-[2]: https://github.com/lua/lua/tree/950db94fc42fd6fa9186c0aa9410a0f721504112
-[3]: http://en.wikipedia.org/wiki/GNU_build_system
-[4]: http://www.cmake.org/cmake/help/cmake_tutorial.html
+[10]: https://www.gnu.org/software/make/manual/html_node/Introduction.html#Introduction
+[11]: https://github.com/lua/lua/tree/950db94fc42fd6fa9186c0aa9410a0f721504112
+[12]: http://en.wikipedia.org/wiki/GNU_build_system
+[13]: http://www.cmake.org/cmake/help/cmake_tutorial.html
 
 ## conio.h
 
@@ -267,7 +267,7 @@ này nếu thấy trong giáo trình có đề cập đến thư viện **conio.
 DOS/Windows. Mục đích của nó là cho phép bạn thực hiện các thao tác vào/ra
 trực tiếp với console.
 
-Console (hay terminal) thông thường hoạt động trong chế độ có buffer ([cooked mode][1]).
+Console (hay terminal) thông thường hoạt động trong chế độ có buffer ([cooked mode][14]).
 Tức là các phím nhấn của bạn không được gửi trực tiếp đến chương trình
 mà sẽ được giữ lại ở phần mềm console để cho phép bạn chỉnh sửa tự do trước
 khi nhấn ENTER và gửi đến chương trình. Tương tự, các thao tác `printf()` cũng
@@ -280,7 +280,7 @@ với console mà không qua buffer. VD: `getch()` sẽ return bất cứ ký t�
 
 Chúng ta sẽ implement lại một số tính năng của `conio.h` trên Linux.
 
-[1]: http://en.wikipedia.org/wiki/Cooked_mode
+[14]: http://en.wikipedia.org/wiki/Cooked_mode
 
 ### clrscr()
 
@@ -301,7 +301,7 @@ chúng ta cũng ở trong terminal nên không cần lệnh này.
 Nhưng nếu bạn cần tính năng kiểu *Press any key to continue* thì có thể dùng
 `getchar()` và đổi lời nhắn thành *Press ENTER to continue*.
 
-Hoặc hardcore hơn là chuyển terminal về [cbreak mode][1], `getchar()`, rồi chuyển
+Hoặc hardcore hơn là chuyển terminal về [cbreak mode][15], `getchar()`, rồi chuyển
 lại trở về cooked mode.
 
 ```C
@@ -310,11 +310,11 @@ getchar();
 system("/bin/stty cooked");
 ```
 
-[1]: http://en.wikipedia.org/wiki/Cooked_mode#cbreak_mode
+[15]: http://en.wikipedia.org/wiki/Cooked_mode#cbreak_mode
 
 ### textcolor() và textbackground()
 
-Terminal thông thường trên Linux tuân theo [chuẩn VT100][1], chuẩn này có định
+Terminal thông thường trên Linux tuân theo [chuẩn VT100][16], chuẩn này có định
 nghĩa một số tính năng cho bạn điều khiển trực tiếp terminal sử dụng một loại
 mã đặc biệt gọi là escape code. Bạn gửi mã này tới terminal chỉ đơn giản bằng
 cách `printf` nó ra với ký tự đầu tiên là **ESCAPE** (mã ASCII **0x1B**).
@@ -329,10 +329,10 @@ printf("This text is normal.\n");
 ```
 
 Trong đó, 31 là mã màu đỏ foreground còn 43 là màu vàng background còn 0 là mã
-reset. Bạn có thể xem một số mã màu và các hiệu ứng khác [ở đây][2].
+reset. Bạn có thể xem một số mã màu và các hiệu ứng khác [ở đây][17].
 
-[1]: http://en.wikipedia.org/wiki/VT100
-[2]: http://www.termsys.demon.co.uk/vtansi.htm#colors
+[16]: http://en.wikipedia.org/wiki/VT100
+[17]: http://www.termsys.demon.co.uk/vtansi.htm#colors
 
 ### gotoxy()
 
