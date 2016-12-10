@@ -37,7 +37,7 @@ written for Unity3D 5.4.2f2.
 
 - Inside your controller script for that object, you can now use the [Animation API](https://web.archive.org/web/20161125184232/https://docs.unity3d.com/ScriptReference/Animation.html):
 
-```c-sharp
+```csharp
 var anim = this.GetComponent<Animation> ();
 anim.Play("UnitReceivingDamage");
 
