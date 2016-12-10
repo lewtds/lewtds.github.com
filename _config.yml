@@ -1,5 +1,5 @@
-highlighter: pygments
-markdown: redcarpet
+highlighter: rouge
+markdown: kramdown
 
 redcarpet:
     extensions: [with_toc_data]
